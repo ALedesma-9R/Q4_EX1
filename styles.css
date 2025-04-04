@@ -1,0 +1,184 @@
+body {
+    background-image: url(https://raketcontent.com/raket_file_m_BSTF_73_C_Aw_fe15b2de19.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1650px 650px;
+    background-color: bisque;
+}
+
+.container {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/681/564/small/abstract-background-green-blackboard-free-vector.jpg);
+    width: 47%;
+    height: 200%;
+    margin-top: 30px;
+    border-style: double;
+    border-color: green;
+    padding: 29px;
+}
+
+.row1 {
+    background-color: yellow;
+    border-radius: 25px;
+    border-color: yellowgreen;
+    border-style: dashed;
+    align-content: center;
+}
+
+.row2 {
+    background-color: hotpink;
+    border-radius: 25px;
+    border-color: deeppink;
+    border-style: dashed;
+    padding: 13px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  flex-direction: column;
+  flex-direction: row;
+  align-content: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Texts */
+.talkbubble {
+    width: 270px;
+    height: 60px;
+    background: lightskyblue;
+    position: relative;
+    margin-top: 25px;
+    left: 25px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 3px solid dodgerblue;
+    border-style: dotted;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-weight: normal;
+    color: black;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-left: 0;
+}
+
+.talkbubble:before {
+    content: "";
+    position: absolute;
+    left: -26px; 
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid lightskyblue;
+    border-bottom: 13px solid transparent;
+}
+
+.bubble-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+    }
+
+.trapezoid-border {
+    width: 200px;
+    margin-top: 300px;
+    border-bottom: 50px solid darkblue;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    text-align: center;
+    position: relative;
+}
+
+.trapezoid-border h1 {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+h1 {
+    background-color: blue;
+    background-size: fit-content;
+}
+
+h3 {
+    color: blue;
+}
+
+.prompt {
+    background-color: darkviolet;
+}
+
+kbd {
+	background-color: darkblue;
+}
+
+ul {
+    border: 7px;
+    border-style: inset;
+    border-color: peachpuff;
+    display: inline-block;
+    color: red;
+    font-size: 10px;
+}
+
+.ribbon {
+  width: 45px;
+  font-size: 14px;
+  padding: 2px;
+  position: absolute;
+  right: -25px;
+  top: -12px;
+  text-align: center;
+  border-radius: 13px;
+  border-style: dotted;
+  border-color: darkmagenta;
+  transform: rotate(20deg);
+  background-color: fuchsia;
+  color: ghostwhite;
+}
+
+/* Contents */
+img {
+	width: 230px;
+	height: 225px;
+    position: relative;
+    top: 3px;
+    right: 30px;
+    border: 5px;
+    border-color: darkgreen;
+    border-radius: 25px;
+    border-style: dashed;
+}
+
+button {
+    position: relative;
+    padding: 10px 20px;
+    margin-bottom: 7px;
+}
+
+.btn {
+    background-color: magenta;
+    color: black;
+    border: 3.5px;
+    border-color: darkmagenta;
+    border-style: groove;
+}
+
+hr {
+    color: darkmagenta;
+}
